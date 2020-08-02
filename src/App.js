@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      This is a test react app
-    </div>
+    <Header/>
   );
 }
 
