@@ -2,16 +2,168 @@
     position: absolute;
     width: 100%;
     height: 15%;
-    background: grey;
+    background: black;
 }
 
-#name{
+#fname{
+    position: absolute;
+    width: 10%;
+    top: 5%;
+    left: 1%;
+    font-size: 40px;
+    font-weight:bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#lname{
+    position: absolute;
+    width: 20%;
+    top: 45%;
+    left: 1%;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#navBar{
     position: absolute;
     width: 100%;
-    top: 10%;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    top: 104%;
+    height: 35%;
+    background-color: rgb(96,96,96);
+}
+
+#homeOuter{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 10%;
+}
+
+#homeOuterSelected{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 10%;
+    background-color: rgb(64,64,64);
+}
+
+#workOuter{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    height: 100%;
+    width: 10%;
+}
+
+#workOuterSelected{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    height: 100%;
+    width: 10%;
+    background-color: rgb(64,64,64);
+}
+
+#projectsOuter{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    height: 100%;
+    width: 10%;
+}
+
+#projectsOuterSelected{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    height: 100%;
+    width: 10%;
+    background-color: rgb(64,64,64);
+}
+
+#contactOuter{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    height: 100%;
+    width: 10%;
+}
+
+#contactOuterSelected{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    height: 100%;
+    width: 10%;
+    background-color: rgb(64,64,64);
+}
+
+#homeOuter:hover{
+    background-color: rgb(64,64,64);
+}
+
+#workOuter:hover{
+    background-color: rgb(64,64,64);
+}
+
+#projectsOuter:hover{
+    background-color: rgb(64,64,64);
+}
+
+#contactOuter:hover{
+    background-color: rgb(64,64,64);
+}
+
+#home{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
     text-align: center;
     align-items: center;
-    color: white;
+    color: rgb(192,192,192);
+}
+
+
+#work{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: rgb(192,192,192);
+}
+
+#projects{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: rgb(192,192,192);
+}
+
+#contact{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: rgb(192,192,192);
 }

@@ -1,0 +1,46 @@
+#homeOuter{
+    position: absolute;
+    width: 100%;
+    top: 21%;
+    height: 79%;
+    background: black;
+}
+
+#img{
+    position: absolute;
+    width: 28.5%;
+    height: 80%;
+    left: 8%;
+    top: 10%;
+}
+
+#heading{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+#para{
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    width: 50%;
+    color: white;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#sub{
+    position: absolute;
+    top: 64%;
+    left: 45%;
+    width: 50%;
+    color: white;
+    font-size: 38px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
