@@ -1,15 +1,19 @@
 #workOuter{
     position: absolute;
     width: 100%;
-    top: 21%;
-    height: 79%;
+    top: 20%;
+    height: 80%;
     background: black;
+}
+
+.linkClass {
+    text-decoration: none;
 }
 #software{
     position: absolute;
-    width: 100%;
-    top: 6%;
-    left: 3%;
+    width: 23%;
+    top: 1.5%;
+    left: 10%;
     font-size: 40px;
     font-weight:bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -19,9 +23,9 @@
 
 #softwareSelected{
     position: absolute;
-    width: 100%;
-    top: 6%;
-    left: 3%;
+    width: 23%;
+    top: 1.5%;
+    left: 10%;
     font-size: 40px;
     font-weight:bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -35,9 +39,11 @@
 
 #it{
     position: absolute;
-    width: 65%;
-    top: 6%;
-    left: 45%;
+    width: 100%;
+    top: 1.5%;
+    left: 0%;
+    text-align: center;
+    align-items: center;
     font-size: 40px;
     font-weight:bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -47,9 +53,11 @@
 
 #itSelected{
     position: absolute;
-    width: 65%;
-    top: 6%;
-    left: 45%;
+    width: 100%;
+    top: 1.5%;
+    left: 0%;
+    text-align: center;
+    align-items: center;
     font-size: 40px;
     font-weight:bold;
     font-family: 'Roboto Condensed', sans-serif;
@@ -63,8 +71,8 @@
 
 #other{
     position: absolute;
-    width: 50%;
-    top: 6%;
+    width: 30%;
+    top: 1.5%;
     left: 70%;
     font-size: 40px;
     font-weight:bold;
@@ -75,8 +83,8 @@
 
 #otherSelected{
     position: absolute;
-    width: 50%;
-    top: 6%;
+    width: 30%;
+    top: 1.5%;
     left: 70%;
     font-size: 40px;
     font-weight:bold;
@@ -89,3 +97,102 @@
     color: green;
 }
 
+#steigTitle{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#steigDescription{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
+
+#uniTitle{
+    position: absolute;
+    top: 34%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#uniDescription{
+    position: absolute;
+    top: 41%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
+
+#sriTitle{
+    position: absolute;
+    top: 56%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#sriDescription{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aethTitle{
+    position: absolute;
+    top: 78%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aethDescription{
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,92 @@
+#contactOuter{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    height: 80%;
+    background: black;
+}
+
+#contactMessage{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 45px;
+    top: 5%;
+    text-align: center;
+    align-items: center;
+}
+
+#phone{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+#email{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 30%;
+    text-align: center;
+    align-items: center;
+
+}
+
+#linkedin{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+#fb{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+#ig{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+#yt{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightgray;
+    font-size: 35px;
+    top: 70%;
+    text-align: center;
+    align-items: center;
+}
